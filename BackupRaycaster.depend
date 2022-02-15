@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1629917061 source:/home/thegogus/CPP/BackupRaycaster/init.cpp
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<cstdio>
+	<string>
+	"init.h"
+
+1629917061 /home/thegogus/CPP/BackupRaycaster/init.h
+	<SDL2/SDL.h>
+
+1630413835 source:/home/thegogus/CPP/BackupRaycaster/main.cpp
+	<cstdio>
+	<cstdlib>
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+	<vector>
+	<math.h>
+	"init.h"
+	"shader.h"
+	"mesh.h"
+	"transform.h"
+	"shapes.h"
+	"player.h"
+	"ray.h"
+
+1629917061 /home/thegogus/CPP/BackupRaycaster/shader.h
+	<GL/glew.h>
+	<string>
+	"transform.h"
+
+1629999003 /home/thegogus/CPP/BackupRaycaster/transform.h
+	<glm/glm.hpp>
+
+1630413409 /home/thegogus/CPP/BackupRaycaster/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<vector>
+
+1630413242 /home/thegogus/CPP/BackupRaycaster/shapes.h
+	<glm/glm.hpp>
+	<vector>
+	"mesh.h"
+	"transform.h"
+	"shader.h"
+
+1630413506 source:/home/thegogus/CPP/BackupRaycaster/mesh.cpp
+	<glm/glm.hpp>
+	<cstdio>
+	<vector>
+	"mesh.h"
+
+1630076150 source:/home/thegogus/CPP/BackupRaycaster/shader.cpp
+	<cstdlib>
+	<string>
+	<fstream>
+	<glm/glm.hpp>
+	"transform.h"
+	"shader.h"
+
+1630413336 source:/home/thegogus/CPP/BackupRaycaster/shapes.cpp
+	<glm/glm.hpp>
+	<vector>
+	"mesh.h"
+	"shapes.h"
+	"shader.h"
+	"transform.h"
+
+1629999022 source:/home/thegogus/CPP/BackupRaycaster/transform.cpp
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"./transform.h"
+
+1630413355 source:/home/thegogus/CPP/BackupRaycaster/player.cpp
+	<vector>
+	<glm/glm.hpp>
+	"player.h"
+
+1630257461 /home/thegogus/CPP/BackupRaycaster/player.h
+	<vector>
+	<glm/glm.hpp>
+	"shapes.h"
+
+1630411803 source:/home/thegogus/CPP/BackupRaycaster/ray.cpp
+	<glm/glm.hpp>
+	"ray.h"
+	"shapes.h"
+
+1630411747 /home/thegogus/CPP/BackupRaycaster/ray.h
+	<glm/glm.hpp>
+	<vector>
+	"shapes.h"
+
